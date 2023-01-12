@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import RadioButton from "./components/RadioButton";
+import RadioButton from "./components/RadioButtons/RadioButton";
 
 import './App.css';
 
