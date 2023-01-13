@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import RadioButton from "./components/RadioButtons/RadioButton";
+import Checkbox from "./components/Checkbox/Checkbox";
 
 import './App.css';
 
@@ -40,6 +41,45 @@ function App() {
 					// onClick={() => fr.setFieldValue("user_role", userRoles.ARMY)}
 					/>
 				</div>
+
+				
+			</div>
+
+			<div
+				style={{
+					margin: "auto",
+					padding: "40px"
+				}}
+			>
+				<h1>
+					Example of custom react Checkbox button
+				</h1>
+				<div
+					style={{
+						display: "flex",
+						alignItems: "center",
+						justifyContent: "center",
+						gap: "10px"
+					}}
+				>
+					<Checkbox
+						name="hello_cb"
+						label="Hello"
+						groupName="type_group_cb"
+					// checked={fr.values.user_role === userRoles.ARMY}
+					// onClick={() => fr.setFieldValue("user_role", userRoles.ARMY)}
+					/>
+
+					<Checkbox
+						name="world_cb"
+						label="World"
+						groupName="type_group_cb"
+					// checked={fr.values.user_role === userRoles.ARMY}
+					// onClick={() => fr.setFieldValue("user_role", userRoles.ARMY)}
+					/>
+				</div>
+
+				
 			</div>
 		</div>
 	);
