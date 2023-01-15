@@ -22,27 +22,24 @@ function App() {
 						display: "flex",
 						alignItems: "center",
 						justifyContent: "center",
-						gap: "10px"
+						gap: "10px",
+						padding: "10px 0px"
 					}}
 				>
 					<RadioButton
 						name="hello"
 						label="Hello"
 						groupName="type_group"
-					// checked={fr.values.user_role === userRoles.ARMY}
-					// onClick={() => fr.setFieldValue("user_role", userRoles.ARMY)}
 					/>
 
 					<RadioButton
 						name="world"
 						label="World"
 						groupName="type_group"
-					// checked={fr.values.user_role === userRoles.ARMY}
-					// onClick={() => fr.setFieldValue("user_role", userRoles.ARMY)}
 					/>
 				</div>
 
-				
+
 			</div>
 
 			<div
@@ -59,27 +56,24 @@ function App() {
 						display: "flex",
 						alignItems: "center",
 						justifyContent: "center",
-						gap: "10px"
+						gap: "10px",
+						padding: "10px 0px"
 					}}
 				>
 					<Checkbox
 						name="hello_cb"
 						label="Hello"
 						groupName="type_group_cb"
-					// checked={fr.values.user_role === userRoles.ARMY}
-					// onClick={() => fr.setFieldValue("user_role", userRoles.ARMY)}
 					/>
 
 					<Checkbox
 						name="world_cb"
 						label="World"
 						groupName="type_group_cb"
-					// checked={fr.values.user_role === userRoles.ARMY}
-					// onClick={() => fr.setFieldValue("user_role", userRoles.ARMY)}
 					/>
 				</div>
 
-				
+
 			</div>
 		</div>
 	);
